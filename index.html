@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NISVO Employee Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="login-card">
+
+        <h1>NISVO Marine Surveys LLP</h1>
+
+        <h2>Employee Portal</h2>
+
+        <input
+            type="text"
+            id="employeeName"
+            placeholder="Employee Name">
+
+        <input
+            type="email"
+            id="employeeEmail"
+            placeholder="Email Address">
+
+        <p id="error"></p>
+
+        <button onclick="loginEmployee()">
+            LOGIN
+        </button>
+
+        <div id="loading" class="loading">
+
+            <div class="spinner"></div>
+
+            <p>Redirecting to Google Form...</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
